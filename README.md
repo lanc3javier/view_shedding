@@ -19,7 +19,7 @@ The engine performs a batch-processed viewshed analysis using the **WhiteboxTool
 
 ## 🚀 Quick Start
 1. Place your field boundaries (KML, GPKG, or SHP) into the `/input_fields` folder.
-2. Open `antenna_engine.R` in RStudio.
+2. Open `viewshedding_tool.R` in RStudio.
 3. Adjust the **Dashboard** parameters for your specific hardware.
 4. Run `run_antenna_optimization()`.
 
