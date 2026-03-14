@@ -5,6 +5,19 @@ Some R code on how to ideally place a radio antenna to maximize field coverage g
 
 This R-based spatial engine automates the placement of telecommunications antennas for agricultural robotics. It identifies the "Ideal Spot" along a field perimeter to maximize signal coverage while accounting for terrain, crop height, and robot dimensions.
 
+# 📂 Recommended Folder Setup
+You should place your R Script and your Input Folder at the same level. Here is how your project folder should look on your computer:
+
+Project_Root_Folder/ (Give this any name, e.g., "Antenna_Project")
+
+📄 antenna_engine.R (The code I gave you)
+
+📄 antenna-optimization-engine.Rproj (Optional: An RStudio Project file)
+
+📁 input_fields/ (Create this manually and drop your KML/GPKG files here)
+
+📁 Field_Analysis_Results/ (The script will create this automatically)
+
 ## 🛠️ How It Works
 The engine performs a batch-processed viewshed analysis using the **WhiteboxTools** geospatial library.
 
