@@ -10,9 +10,7 @@ You should place your R Script and your Input Folder at the same level. Here is 
 
 Project_Root_Folder/ (Give this any name, e.g., "Antenna_Project")
 
-📄 antenna_engine.R (The code I gave you)
-
-📄 antenna-optimization-engine.Rproj (Optional: An RStudio Project file)
+📄 viewshedding_tool_v#.R 
 
 📁 input_fields/ (Create this manually and drop your KML/GPKG files here)
 
